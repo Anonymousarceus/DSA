@@ -11,6 +11,7 @@ class Solution {
                     break;
                 }
                 a=al.remove(al.size()-1)*a/cD;
+                
             }
             al.add(a);
             
@@ -30,13 +31,5 @@ class Solution {
         }
         return a;
     }
-    // public int lcm(int a,int b){
-    //     int ans=a*b/(gcd(a,b));
-    //     return ans;
-    // }
-    // public boolean nCP(int a,int b){
-    //     int x=gcd(a,b);
-    //     return x>1?true:false;
-        
-    // }
+   
 }
