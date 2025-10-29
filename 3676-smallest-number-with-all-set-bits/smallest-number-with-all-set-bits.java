@@ -10,6 +10,8 @@ class Solution {
             if(x>n){
                 break;
             }
+            
+            
         }
         return x-1;
 
