@@ -3,8 +3,8 @@ class Solution {
         int n=prices.length;
         long count=0;
         int len=1;
-        for(int i=0;i<n-1;++i){
-            if(prices[i]-prices[i+1]==1){
+        for(int i=0;i<n;++i){
+            if(i>0 && prices[i-1]-prices[i]==1){
                 ++len;
             }
             else{
@@ -14,6 +14,6 @@ class Solution {
 
         }
 
-        return count+1;
+        return count;
     }
 }
