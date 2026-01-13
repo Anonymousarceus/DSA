@@ -2,6 +2,7 @@ class Solution {
     public double separateSquares(int[][] squares) { // Method name updated
         double low = Integer.MAX_VALUE, high = Integer.MIN_VALUE;
 
+        
         // Find the range of y-values
         for (int[] square : squares) {
             int y = square[1], l = square[2];
