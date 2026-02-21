@@ -3,7 +3,6 @@ class Solution {
         int count=0;
         for(int i=left;i<=right;++i){
             String x=Integer.toBinaryString(i);
-            
             int a=0;
             for(char c:x.toCharArray()){
                 
